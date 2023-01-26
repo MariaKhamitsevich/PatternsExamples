@@ -15,9 +15,9 @@ struct Chocolate: ProductProtocol {
 }
 
 class Delivery: DeliveryProtocol {
-    private let client: ChocolateFabric
+    private let client: ChocolateFactory
     
-    init(client: ChocolateFabric) {
+    init(client: ChocolateFactory) {
         self.client = client
         client.delivery = self
     }
@@ -27,7 +27,7 @@ class Delivery: DeliveryProtocol {
     }
 }
 
-final class ChocolateFabric {
+final class ChocolateFactory {
     weak var delivery: DeliveryProtocol?
     
     func deliverChocolate(withName: String, inQuality: Int) {
