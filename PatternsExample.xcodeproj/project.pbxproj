@@ -19,6 +19,8 @@
 		4C7AE17F2982B13B005C5E28 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AE17E2982B13B005C5E28 /* Decorator.swift */; };
 		4C7AE1812982B254005C5E28 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AE1802982B254005C5E28 /* Bridge.swift */; };
 		4C7AE1832982B269005C5E28 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AE1822982B269005C5E28 /* Flyweight.swift */; };
+		4C7AE1852982CFAF005C5E28 /* ResponderChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AE1842982CFAF005C5E28 /* ResponderChain.swift */; };
+		4C7AE1872982CFBA005C5E28 /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AE1862982CFBA005C5E28 /* StateMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		4C7AE17E2982B13B005C5E28 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		4C7AE1802982B254005C5E28 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		4C7AE1822982B269005C5E28 /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		4C7AE1842982CFAF005C5E28 /* ResponderChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponderChain.swift; sourceTree = "<group>"; };
+		4C7AE1862982CFBA005C5E28 /* StateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		4C57491029816AA000C35560 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				4C7AE1842982CFAF005C5E28 /* ResponderChain.swift */,
+				4C7AE1862982CFBA005C5E28 /* StateMachine.swift */,
 			);
 			path = Behavioral;
 			sourceTree = "<group>";
@@ -182,9 +188,11 @@
 			files = (
 				4C5748FF2981649300C35560 /* ViewController.swift in Sources */,
 				4C5748FB2981649300C35560 /* AppDelegate.swift in Sources */,
+				4C7AE1852982CFAF005C5E28 /* ResponderChain.swift in Sources */,
 				4C5748FD2981649300C35560 /* SceneDelegate.swift in Sources */,
 				4C7AE17B2982B123005C5E28 /* Adapter.swift in Sources */,
 				4C7AE1832982B269005C5E28 /* Flyweight.swift in Sources */,
+				4C7AE1872982CFBA005C5E28 /* StateMachine.swift in Sources */,
 				4C7AE1812982B254005C5E28 /* Bridge.swift in Sources */,
 				4C7AE17D2982B12F005C5E28 /* Proxy.swift in Sources */,
 				4C57491229816AE100C35560 /* FactoryBuilder.swift in Sources */,
